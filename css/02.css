@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*为图片添加默认样式*/
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.search{
+    background-color: #bcdff5;
+    padding: 10px;
+}
+.search01{
+    padding: 5px 0;
+    background-color: slategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_Alm{
+    display: flex;
+    background-color: slategrey;
+    flex-direction: row;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    flex-wrap: wrap;
+}
+.img_All01{
+    width:20%;
+    padding:0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_All01 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.img_All01 p{
+    font-size: 14px;
+}
